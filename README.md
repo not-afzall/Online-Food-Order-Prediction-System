@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project predicts whether a customer will place a food order using a machine learning model. It covers data preprocessing, model training, and deployment using a simple web application.
+This project predicts whether a customer will place a food order using a machine learning model. It includes data preprocessing, model training, and a simple web interface for predictions.
 
 ## Tech Stack
 
@@ -12,12 +12,11 @@ Python, Pandas, NumPy, Scikit-learn, Flask, HTML
 
 * Data preprocessing and encoding
 * Random Forest model for prediction
-* Accuracy and confusion matrix evaluation
+* Model evaluation using accuracy and confusion matrix
 * Simple web interface using Flask
 
 ## Project Structure
 
-```
 food-order-prediction/
 ├── food_order_data.csv
 ├── model_training.py
@@ -25,21 +24,22 @@ food-order-prediction/
 ├── requirements.txt
 ├── README.md
 └── templates/
-    └── index.html
-```
+  └── index.html
 
 ## Dataset
 
-Features include Age, Gender, Location, Income, Order History
-Target: Ordered (Yes/No)
+The dataset contains features such as Age, Gender, Location, Income, and Order History.
+Target variable: Ordered (Yes/No)
 
 ## How to Run
 
-Clone the repository, install requirements using `pip install -r requirements.txt`, run `model_training.py`, then run `app.py` and open `http://127.0.0.1:5000` in your browser.
+Clone the repository and install dependencies using `pip install -r requirements.txt`
+Run `model_training.py` to train the model
+Run `app.py` and open `http://127.0.0.1:5000` in your browser
 
 ## Future Improvements
 
-Add more features, improve model accuracy, and deploy the project online.
+Improve model accuracy, add more features, and deploy the application online
 
 ## Author
 
